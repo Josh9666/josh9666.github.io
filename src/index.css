@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+font-family: ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #111827;
+    color: #fff;
+  }
+}
+
+.slick-dots li button:before {
+  display: none;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #3B82F6;
+}
+
+
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: inherit !important;
+}
+
+.slick-slide > div {
+  height: 100%;
+}
+
+/* carousel.css */
+.slick-dots li button {
+  width: 10px !important;
+  height: 10px !important;
+  padding: 0 !important;
+  background-color: #D1D5DB !important;
+  border-radius: 9999px !important;
+  transition: all 0.3s ease !important;
+}
+
+.slick-dots li.slick-active button {
+  background-color: #2563EB !important;
+  transform: scale(1.2) !important;
+}
+
+.slick-dots li {
+  margin: 0 6px !important;
+}
+
+.slick-dots {
+  bottom: -45px !important;
+}
+
+.slick-dots li button:before {
+  display: none !important;
+}
