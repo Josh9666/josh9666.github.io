@@ -82,7 +82,7 @@ const Hero = () => {
         </div>
 
         {/* Social Links */}
-        <div className="flex gap-6 justify-center mt-8 relative z-10">
+        <div className="flex gap-6 justify-center mt-8 relative z-10 ">
           <a 
             href="https://linkedin.com/in/joshua-wilfred-985ba1176"
             target="_blank"
